@@ -1,0 +1,234 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(https://fonts.googleapis.com/css?family=Do+Hyeon:400);
+html {
+    font-family: 'Do Hyeon', serif;
+    font-weight: 300;
+}
+
+body {
+    margin: 0;
+    font-size: 13px;
+    line-height: 20px;
+    overflow-x: hidden;
+    background-color: #f0f0f0;
+    color: #000000;
+}
+
+strong {
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 4.2rem;
+    line-height: 4.62rem;
+margin: 2.1rem 0 1.68rem 0; }
+
+h2 {
+    font-size: 3.56rem;
+    line-height: 3.916rem;
+margin: 1.78rem 0 1.424rem 0; }
+
+h3 {
+    font-size: 2.92rem;
+    line-height: 3.212rem;
+margin: 1.46rem 0 1.168rem 0; }
+
+h4 {
+    font-size: 2.28rem;
+    line-height: 2.508rem;
+margin: 1.14rem 0 0.912rem 0; }
+
+h5 {
+    font-size: 1.44rem;
+    line-height: 1.604rem;
+margin: 0.6rem 0 0.6rem 0; }
+
+h6 {
+    font-size: 1rem;
+    line-height: 1.1rem;
+margin: 0.5rem 0 0.4rem 0; }
+
+.country-flag {
+    top: 0px !important;
+}
+
+.country-flag span {
+    display: block !important;
+    float: left;
+    padding-right: 10px;
+}
+
+td .country-flag {
+    float: left;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.row-fill {
+    flex-grow: 1 !important;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-team-submit {
+    font-size: 1.20rem;
+}
+
+#my-team-pts,
+#my-team-name {
+    font-size: 1.64rem;
+    line-height: 1.804rem;
+    margin: 0.82rem 0 0.656rem 0;
+}
+
+.twitter-wrapper iframe {
+    height: inherit !important;
+    width: inherit !important;
+    flex: 1;
+}
+
+@media (max-width: 48em) {
+    .twitter-wrapper {
+        height: 600px;
+    }
+}
+
+.problem-card {
+    cursor: pointer;
+    background-color: rgba(176, 38, 44, 1);
+    transition: color 1s, background-color 0.3s;
+}
+
+.problem-card:hover {
+    background-color: rgba(176, 38, 44, 0.6);
+    transition: color 1s, background-color 0.3s;
+}
+
+.scoreboard tr > :nth-child(1) {
+    width: 25%;
+}
+
+.scoreboard tr > :nth-child(2) {
+    width: 25%;
+}
+
+.scoreboard tr > :nth-child(3) {
+    width: 25%;
+}
+
+.scoreboard tr > :nth-child(4) {
+    width: 25%;
+}
+
+@media (max-width: 64em) {
+    .scoreboard tr > :nth-child(1) {
+        width: 2em;
+    }
+
+    .scoreboard tr > :nth-child(2) {
+        width: inherit;
+    }
+
+    .scoreboard tr > :nth-child(3) {
+        width: 11em;
+    }
+
+    .scoreboard tr > :nth-child(4) {
+        width: 8em;
+    }
+}
+
+@media (max-width: 48em) {
+    .scoreboard tr > :nth-child(3) {
+        width: 2em;
+    }
+}
+
+.hide-reversing .cat-reversing {
+    display: none;
+}
+
+.hide-web .cat-web {
+    display: none;
+}
+
+.hide-crypto .cat-crypto {
+    display: none;
+}
+
+.hide-pwnable .cat-pwnable {
+    display: none;
+}
+
+.hide-misc .cat-misc {
+    display: none;
+}
+
+.hide-solved .solved {
+    display: none;
+}
+
+a{
+    color: black;
+}
+
+a:hover {
+    color: #119DDD;
+    transition: color 0.3s;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition-delay: 99999s;
+}
+
+div.sponsor img {
+    background-color: #fff;
+    padding: 10px;
+    border: silver solid 10px;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 300px;
+}
+
+div.sponsor-small img {
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (min-width: 64em) {
+    div.sponsor {
+        max-width: 320px;
+    }
+}
+
+@media (max-width: 34em) {
+    .large-screen {
+        display: none;
+    }
+}
